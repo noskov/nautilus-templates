@@ -1,22 +1,11 @@
-# nautilus-templates
-
-### Git
-
-```sh
-git config core.filemode false && git config --list
-
-git add . && git commit -m ""
-git push -u --all
-
-git add . && git commit -m "" && git push -u --all
-
-git rm -r --cached .
-
-git reset --hard HEAD && git clean -f
-```
+# Nautilus Templates
 
 ### Installation
 
 ```sh
-cp ~/nautilus-templates/Templates/* ~/Templates
+cd YOUR_DESTINATION
+git clone git@github.com:noskov/nautilus-templates.git
+cd nautilus-templates
+git config core.filemode false
+cp Templates/* ~/Templates
 ```
