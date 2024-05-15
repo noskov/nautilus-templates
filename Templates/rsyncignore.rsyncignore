@@ -1,0 +1,10 @@
+/.*
+/assets/src
+/build
+/node_modules
+/vendor
+/*.json
+/*.lock
+/*.md
+/*.sh
+/*.xml

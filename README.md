@@ -14,3 +14,9 @@ git rm -r --cached .
 
 git reset --hard HEAD && git clean -f
 ```
+
+### Installation
+
+```sh
+cp ~/nautilus-templates/Templates/* ~/Templates
+```
