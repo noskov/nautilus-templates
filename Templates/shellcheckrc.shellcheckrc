@@ -1,0 +1,13 @@
+# ~/.shellcheckrc
+
+disable=
+
+enable=all
+
+external-sources=true
+
+source=
+
+source-path=SCRIPTDIR
+
+shell=
