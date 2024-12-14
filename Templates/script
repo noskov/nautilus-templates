@@ -2,7 +2,7 @@
 
 # ==============================================================================
 #
-# --- Name ---
+# --- Script ---
 #
 # Description:
 # Author: Sergiy Noskov <sergiy@noskov.org>
@@ -16,7 +16,7 @@
 # ==============================================================================
 
 # ==============================================================================
-# --- Name ---
+# --- Function ---
 #
 # Description of the function.
 #
@@ -30,6 +30,8 @@
 #   Returned values other than the default exit status of the last command run.
 # ==============================================================================
 
+# Enable strict error handling: exit on error, unset variables, and pipeline failures.
+set -euo pipefail
 
 
 
