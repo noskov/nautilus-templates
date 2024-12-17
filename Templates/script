@@ -1,22 +1,16 @@
 #!/bin/bash
 
-# ==============================================================================
-#
-# --- Script ---
+# Script
 #
 # Description:
 # Author: Sergiy Noskov <sergiy@noskov.org>
 # Version: 1.0.0
 # License: MIT License
-# Style Guide: Follows Google's Shell Style Guide
-# Usage:
+# Usage: sudo ./script
 # References:
 #   - https://google.github.io/styleguide/shellguide.html
-#
-# ==============================================================================
 
-# ==============================================================================
-# --- Function ---
+# function()
 #
 # Description of the function.
 #
@@ -28,7 +22,6 @@
 #   Output to STDOUT or STDERR.
 # Returns:
 #   Returned values other than the default exit status of the last command run.
-# ==============================================================================
 
 # Enable strict error handling: exit on error, unset variables, and pipeline failures.
 set -euo pipefail
